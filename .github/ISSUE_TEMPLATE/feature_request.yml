@@ -1,0 +1,40 @@
+name: Feature Request
+description: Suggest a new feature or improvement
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        We welcome feature suggestions. Please describe your idea below.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem statement
+      description: What problem does this feature solve?
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed solution
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+    validations:
+      required: false
+  - type: dropdown
+    id: eu-ai-act
+    attributes:
+      label: EU AI Act relevance
+      options:
+        - Not applicable
+        - Article 4 - AI Literacy
+        - Article 9 - Risk Management
+        - Article 15 - Accuracy Requirements
+        - Article 53 - GPAI Compliance
+        - Other
+    validations:
+      required: false
