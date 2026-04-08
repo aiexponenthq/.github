@@ -16,7 +16,7 @@ All tools are **Apache 2.0 licensed**. More tools coming soon.
 
 ## Enterprise
 
-**AgentShield** — real-time policy enforcement, audit logging, and compliance reporting for AI agents. [Learn more →](https://aiexponent.com/products#agentshield)
+**Sigil** — real-time policy enforcement, audit logging, and compliance reporting for AI agents. [Learn more →](https://aiexponent.com/products#agentshield)
 
 ## Get Involved
 
