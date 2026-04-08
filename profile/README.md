@@ -16,10 +16,10 @@ All tools are **Apache 2.0 licensed**. More tools coming soon.
 
 ## Enterprise
 
-[**AgentShield**](https://useagentshield.net) — real-time policy enforcement, audit logging, and compliance reporting for AI agents. Free tier available.
+**AgentShield** — real-time policy enforcement, audit logging, and compliance reporting for AI agents. [Learn more →](https://aiexponent.com/products#agentshield)
 
 ## Get Involved
 
 Contributions welcome — see CONTRIBUTING.md in any repo. Enterprise enquiries: hello@aiexponent.com
 
-[Website](https://aiexponent.com) · [AgentShield](https://useagentshield.net) · [Contact](https://aiexponent.com/contact)
+[Website](https://aiexponent.com) · [Contact](https://aiexponent.com/contact)
