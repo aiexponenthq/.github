@@ -1,12 +1,11 @@
-<!-- AiExponent LLC — Organization Profile -->
+<!-- AiExponent LLC — Organization Profile · Brand Kit v4 -->
 <div align="center">
-  <h1>AiExponent</h1>
-  <p><strong>Building AI that deserves to be trusted.</strong></p>
+  <a href="https://aiexponent.com"><img src="./brand/logo-full-light.png" alt="AiExponent — Building AI that deserves to be trusted" width="600"/></a>
   <p>
-    <a href="https://aiexponent.com"><img src="https://img.shields.io/badge/Website-aiexponent.com-1e3a5f?style=flat-square" alt="Website"/></a>
-    <a href="https://pypi.org/user/aiexponenthq/"><img src="https://img.shields.io/badge/PyPI-aiexponenthq-c9a84c?style=flat-square" alt="PyPI"/></a>
-    <img src="https://img.shields.io/badge/License-Apache_2.0-2d5a2d?style=flat-square" alt="License"/>
-    <img src="https://img.shields.io/badge/EU_AI_Act-Enforcement_Active-dc2626?style=flat-square" alt="EU AI Act"/>
+    <a href="https://aiexponent.com"><img src="https://img.shields.io/badge/Website-aiexponent.com-0D5463?style=flat-square" alt="Website"/></a>
+    <a href="https://pypi.org/user/aiexponenthq/"><img src="https://img.shields.io/badge/PyPI-aiexponenthq-0D5463?style=flat-square" alt="PyPI"/></a>
+    <img src="https://img.shields.io/badge/License-Apache_2.0-0D5463?style=flat-square" alt="License"/>
+    <img src="https://img.shields.io/badge/EU_AI_Act-Enforcement_Active-9D2929?style=flat-square" alt="EU AI Act"/>
   </p>
 </div>
 
@@ -106,15 +105,15 @@ graph LR
     TD -->|"transparency docs"| CB
     CB -.->|"enterprise"| SIG
 
-    style LCC fill:#1e3a5f,color:#fff,stroke:#c9a84c,stroke-width:2px
-    style RAG fill:#1e3a5f,color:#fff,stroke:#c9a84c,stroke-width:2px
-    style RF fill:#c9a84c,color:#000,stroke:#c9a84c,stroke-width:2px
-    style TD fill:#374151,color:#fff,stroke:#6b7280
-    style CB fill:#374151,color:#fff,stroke:#6b7280
-    style SIG fill:#1e3652,color:#fff,stroke:#6b7280,stroke-dasharray:5 5
+    style LCC fill:#0D5463,color:#FCFCFA,stroke:#0D5463,stroke-width:2px
+    style RAG fill:#0D5463,color:#FCFCFA,stroke:#0D5463,stroke-width:2px
+    style RF fill:#0D5463,color:#FCFCFA,stroke:#0D5463,stroke-width:3px
+    style TD fill:#F5F4EF,color:#0F1419,stroke:#E4E2DC
+    style CB fill:#F5F4EF,color:#0F1419,stroke:#E4E2DC
+    style SIG fill:#0F1419,color:#FCFCFA,stroke:#0D5463,stroke-dasharray:5 5
 ```
 
-**Solid gold border** = open source, available now. **Dashed** = enterprise roadmap.
+**Solid teal fill** = open source, available now. **Dashed** = enterprise roadmap.
 
 ---
 
