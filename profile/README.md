@@ -17,9 +17,10 @@ The EU AI Act is not coming. **It is here.**
 
 | Deadline | Status | Consequence |
 |---|---|---|
-| February 2025 | ✅ Enforced | 8 AI practices are **illegal**. Fines up to €35M. |
-| August 2025 | ✅ Enforced | GPAI providers must publish documentation. AI literacy required. |
-| **August 2026** | ⚠️ **4 months away** | All high-risk AI systems need risk management, accuracy evidence, transparency docs. Fines up to **€30M or 6% of global turnover**. |
+| February 2025 | ✅ Enforced | 8 AI practices are **illegal** (Art. 5). All deployers must evidence staff **AI literacy** proportionate to role and risk (Art. 4). Fines up to €35M. |
+| August 2025 | ✅ Enforced | GPAI model providers must publish technical documentation and training-data summaries (Art. 53). |
+| **August 2026** | ⚠️ **4 months away** | All high-risk AI systems need risk management, accuracy evidence, transparency docs (Arts. 9–15). Fines up to €15M or 3% of global turnover. |
+| August 2027 | 🕓 Upcoming | High-risk obligations extend to AI embedded in regulated products (Annex I): medical devices, machinery, vehicles, aviation, rail, maritime. |
 
 Most engineering teams cannot produce the required documentation. AiExponent builds the tools that change that — in 30 minutes, not 30 weeks.
 
@@ -123,9 +124,11 @@ Designed for the EU AI Act. Cross-mapped to every active framework:
 
 | Framework | Status | Covered by |
 |---|---|---|
+| EU AI Act Art. 4 (AI literacy) | ✅ Enforced Feb 2025 | RiskForge |
 | EU AI Act Art. 5 (prohibited practices) | ✅ Enforced Feb 2025 | RiskForge |
 | EU AI Act Art. 53 (GPAI transparency) | ✅ Enforced Aug 2025 | license-compliance-checker |
 | EU AI Act Art. 9–15 (high-risk systems) | ⚠️ August 2026 | All three tools |
+| EU AI Act Annex I (AI in regulated products) | 🕓 August 2027 | Sectoral coverage |
 | NIST AI RMF 1.0 | Active — US federal mandatory | RiskForge (cross-map built-in) |
 | ISO/IEC 42001:2023 | Active — procurement gate | RiskForge (Annex A controls) |
 | Colorado AI Act SB 24-205 | Active since Feb 2026 | RiskForge |
