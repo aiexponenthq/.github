@@ -31,7 +31,25 @@ Most engineering teams cannot produce the required documentation. AiExponent bui
 
 ## Open Source Tools
 
-Three production-ready tools. Each maps to an active enforcement obligation. Each produces a concrete artefact your legal team can file.
+Four production-ready tools. Each maps to an active enforcement obligation. Each produces a concrete artefact your legal team can file.
+
+### [litmusai](https://github.com/aiexponenthq/litmusai) · Article 5
+
+> *"Is my AI system even allowed — or does it touch a prohibited practice?"*
+
+```bash
+pip install litmus-screener
+litmus screen --describe "a chatbot for mental-health support for teenagers"
+```
+
+Free, deterministic CLI screener for the **eight prohibited-practice categories** of Article 5. Per-category **Red / Amber / Clear** verdict with regulatory citations, confidence levels, and remediation — in under 60 seconds, fully offline.
+
+**Output:** hash-verifiable report (JSON / SARIF / Markdown). Ships with the AiExponent reference ruleset — internal panel authored, **not yet lawyer-reviewed**; bring-your-own signed rulesets supported.
+
+[![PyPI](https://img.shields.io/pypi/v/litmus-screener.svg?style=flat-square)](https://pypi.org/project/litmus-screener/)
+[![CI](https://github.com/aiexponenthq/litmusai/actions/workflows/ci.yml/badge.svg)](https://github.com/aiexponenthq/litmusai/actions)
+
+---
 
 ### [license-compliance-checker](https://github.com/aiexponenthq/license-compliance-checker) · Article 53
 
@@ -92,7 +110,7 @@ Guided 8-dimension risk assessment CLI with 50+ questions, Annex III pattern mat
 
 ## The Compound Moat
 
-Each tool produces structured evidence consumed by the next. Together they cover the complete technical documentation chain required for high-risk AI system compliance.
+Upstream of everything, **LitmusAI** (Art. 5) is the go/no-go gate — screen for prohibited practices *before* you invest in compliance evidence. The three tools below then form a chain: each produces structured evidence consumed by the next, together covering the technical documentation required for high-risk AI system compliance.
 
 ```mermaid
 graph LR
@@ -128,7 +146,7 @@ Designed for the EU AI Act. Cross-mapped to every active framework:
 | Framework | Status | Covered by |
 |---|---|---|
 | EU AI Act Art. 4 (AI literacy) | ✅ Enforced Feb 2025 | RiskForge |
-| EU AI Act Art. 5 (prohibited practices) | ✅ Enforced Feb 2025 | RiskForge |
+| EU AI Act Art. 5 (prohibited practices) | ✅ Enforced 2 Feb 2025 | LitmusAI |
 | EU AI Act Art. 53 (GPAI transparency) | ✅ Enforced 2 Aug 2025 | license-compliance-checker |
 | EU AI Act Art. 9–15 (high-risk systems) | 🕓 2 Dec 2027 — provisional¹ | All three tools |
 | EU AI Act Annex I (AI in regulated products) | 🕓 2 Aug 2028 — provisional¹ | Sectoral coverage |
