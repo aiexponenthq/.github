@@ -1,4 +1,4 @@
-<!-- AiExponent LLC — Organization Profile · Brand Kit v4 -->
+<!-- AiExponent LLC — Organization Profile · Caret identity (2026-06-11 rebrand, "One mark. Two accents.") -->
 <div align="center">
   <a href="https://aiexponent.com"><img src="./brand/logo-full-light.png" alt="AiExponent — Building AI that deserves to be trusted" width="600"/></a>
   <p>
@@ -17,10 +17,13 @@ The EU AI Act is not coming. **It is here.**
 
 | Deadline | Status | Consequence |
 |---|---|---|
-| February 2025 | ✅ Enforced | 8 AI practices are **illegal** (Art. 5). All deployers must evidence staff **AI literacy** proportionate to role and risk (Art. 4). Fines up to €35M. |
-| August 2025 | ✅ Enforced | GPAI model providers must publish technical documentation and training-data summaries (Art. 53). |
-| **August 2026** | ⚠️ **4 months away** | All high-risk AI systems need risk management, accuracy evidence, transparency docs (Arts. 9–15). Fines up to €15M or 3% of global turnover. |
-| August 2027 | 🕓 Upcoming | High-risk obligations extend to AI embedded in regulated products (Annex I): medical devices, machinery, vehicles, aviation, rail, maritime. |
+| 2 Feb 2025 | ✅ Enforced | 8 AI practices are **illegal** (Art. 5). All deployers must evidence staff **AI literacy** proportionate to role and risk (Art. 4). Fines up to €35M. |
+| 2 Aug 2025 | ✅ Enforced | GPAI model providers must publish technical documentation and training-data summaries (Art. 53). |
+| 2 Aug 2026 | ⚠️ Active | Governance regime + **GPAI enforcement powers** take effect; member-state penalty regimes and notified-body provisions go live. |
+| **2 Dec 2027** | 🕓 Provisional¹ | **High-risk** stand-alone systems (Annex III) need risk management, accuracy evidence, transparency docs (Arts. 9–15). Fines up to €15M or 3% of global turnover. |
+| 2 Aug 2028 | 🕓 Provisional¹ | High-risk obligations extend to AI embedded in regulated products (Annex I): medical devices, machinery, vehicles, aviation, rail, maritime. |
+
+<sup>¹ **Deferred** from 2 Aug 2026 / 2 Aug 2027 by the **Digital Omnibus** (Council–Parliament political agreement, 7 May 2026). The deferral is **provisional** — not yet adopted or published in the Official Journal (expected before 2 Aug 2026). Re-verify adoption status before relying on these dates. Sources: [Regulation (EU) 2024/1689](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689) · [Commission Digital Omnibus simplification package](https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai).</sup>
 
 Most engineering teams cannot produce the required documentation. AiExponent builds the tools that change that — in 30 minutes, not 30 weeks.
 
@@ -68,7 +71,7 @@ Framework-agnostic evaluation harness for RAG and agentic AI systems. 12 metrics
 
 ### [riskforge](https://github.com/aiexponenthq/riskforge) · Article 9
 
-> *"Where is my Article 9 risk management file? How do I produce one before August 2026?"*
+> *"Where is my Article 9 risk management file? How do I produce one before the high-risk deadline?"*
 
 ```bash
 pip install riskforge
@@ -126,13 +129,15 @@ Designed for the EU AI Act. Cross-mapped to every active framework:
 |---|---|---|
 | EU AI Act Art. 4 (AI literacy) | ✅ Enforced Feb 2025 | RiskForge |
 | EU AI Act Art. 5 (prohibited practices) | ✅ Enforced Feb 2025 | RiskForge |
-| EU AI Act Art. 53 (GPAI transparency) | ✅ Enforced Aug 2025 | license-compliance-checker |
-| EU AI Act Art. 9–15 (high-risk systems) | ⚠️ August 2026 | All three tools |
-| EU AI Act Annex I (AI in regulated products) | 🕓 August 2027 | Sectoral coverage |
+| EU AI Act Art. 53 (GPAI transparency) | ✅ Enforced 2 Aug 2025 | license-compliance-checker |
+| EU AI Act Art. 9–15 (high-risk systems) | 🕓 2 Dec 2027 — provisional¹ | All three tools |
+| EU AI Act Annex I (AI in regulated products) | 🕓 2 Aug 2028 — provisional¹ | Sectoral coverage |
 | NIST AI RMF 1.0 | Active — US federal mandatory | RiskForge (cross-map built-in) |
 | ISO/IEC 42001:2023 | Active — procurement gate | RiskForge (Annex A controls) |
-| Colorado AI Act SB 24-205 | Active since Feb 2026 | RiskForge |
-| Texas HB 1709 | Active since Sep 2025 | RiskForge |
+| Colorado AI Act (SB 24-205, overhauled by SB 26-189) | Effective 1 Jan 2027² | RiskForge |
+| Texas TRAIGA (HB 149) | Effective 1 Jan 2026 | RiskForge |
+
+<sup>¹ Provisional under the Digital Omnibus — see note above. &nbsp; ² Colorado's original SB 24-205 (1 Feb 2026 start) was postponed, then substantially revised by **SB 26-189** (signed 14 May 2026), now effective **1 Jan 2027**. Texas's original HB 1709 was replaced in the enacted **TRAIGA (HB 149)**, effective **1 Jan 2026**.</sup>
 
 ---
 
